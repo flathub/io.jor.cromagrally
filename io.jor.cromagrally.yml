@@ -1,6 +1,6 @@
 app-id: io.jor.cromagrally
 runtime: org.freedesktop.Platform
-runtime-version: "24.08"
+runtime-version: "25.08"
 sdk: org.freedesktop.Sdk
 command: CroMagRally
 
@@ -29,6 +29,7 @@ modules:
       - type: git
         url: https://github.com/jorio/CroMagRally.git
         tag: 3.0.1
+        commit: 9dd4de8fe1d085c4a39ff57ae6e37c0516f05daa
         x-checker-data:
           type: git
           tag-pattern: ^([\d.]+)$
